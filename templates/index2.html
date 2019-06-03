@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>要約システム</h1>
+    <form action="/Users/hiro/PycharmProjects/sample1/hello_world.py" method="post">
+      要約したい文章を入力してください<br>
+    <textarea name="youyakumae" rows="25" cols="100">{{ text }}</textarea></br>
+    <input type="submit" value="要約する">
+    <p>要約した文章</p>
+    <textarea name="youyakugo" rows="10" cols="100">{{ youyakugo }}</textarea>
+  </form>
+  </body>
+</html>
